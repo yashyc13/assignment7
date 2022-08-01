@@ -1,0 +1,57 @@
+
+body{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.btn
+{
+    color: white;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #0275d8;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 2%; 
+}
+.create-btn
+{
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.75rem;   
+}
+.btn:hover,.edit:hover,.dlt:hover,.create-btn:hover,.submit:hover{
+    background-color: #009;
+}
+
+table{
+    margin: 4rem auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: scroll;
+}
+
+.select{
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+table,td{
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.edit, .dlt,.submit{
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin: auto 0.5rem;
+    background-color: #0275d8;
+    color: white;
+}
